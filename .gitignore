@@ -1,0 +1,20 @@
+# dataset（按你实际路径）
+Course Assignment 3_Semantic Segmentation/data/CityScapes/
+Course Assignment 3_Semantic Segmentation/data/datasets/
+Course Assignment 3_Semantic Segmentation/datasets/
+
+# 训练输出/日志（你目录里这些 runs_* 很大）
+runs*/
+Course Assignment 3_Semantic Segmentation/runs*/
+
+# 权重文件（一般也别传）
+*.pth
+*.pt
+*.ckpt
+
+# Python / IDE
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store

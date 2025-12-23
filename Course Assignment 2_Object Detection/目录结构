@@ -1,0 +1,20 @@
+faster_rcnn_voc_resnet101/
+├── config.py
+├── train.py
+├── eval.py
+├── infer.py
+├── datasets/
+│   └── voc_dataset.py
+├── models/
+│   └── faster_rcnn_resnet101.py
+├── transforms/
+│   └── transforms.py
+├── utils/
+│   ├── logger.py
+│   ├── metrics.py
+│   ├── plot_curves.py
+│   └── visualize.py
+└── runs/
+    ├── logs/            # 自动创建：训练日志 CSV
+    ├── weights/         # 自动创建：模型权重
+    └── figs/            # 自动创建：曲线图 / 可视化图像

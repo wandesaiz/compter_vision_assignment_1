@@ -1,0 +1,23 @@
+Course Assignment 3_Semantic Segmentation/
+├── config.py
+├── train.py
+├── eval.py
+├── infer.py
+├── datasets/
+│   ├── __init__.py
+│   └── voc_seg_dataset.py
+├── transforms/
+│   ├── __init__.py
+│   └── seg_transforms.py
+├── models/
+│   ├── __init__.py
+│   └── segformer.py
+└── utils/
+    ├── __init__.py
+    ├── logger.py
+    ├── metrics.py
+    ├── visualize.py
+    └── plot_curves.py
+
+
+    CUDA_VISIBLE_DEVICES=2 python train.py
